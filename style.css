@@ -1,0 +1,24 @@
+#parent {
+    display: flex;
+}
+
+.banner {
+    position:relative;
+    background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/WOPA160517_D056-resized.jpg?crop=864,0,1728,2304&wid=600&hei=800&scl=2.88);
+    width: 30rem;
+    height: 35rem;
+}
+
+.logo {
+    position: absolute;
+    background: black;
+    width: 100%;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-evenly;
+}
